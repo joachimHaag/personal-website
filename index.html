@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joe's Website</title>
+    <link rel="stylesheet" href="styles.css"> 
   </head>
   <body>
     <header>
@@ -19,14 +20,15 @@
     </header>
 
     <main>
-      <img
+      <img class="center rund"
         src="images/1.JPG"
         alt="Joe"
         width="100"
         height="120"
+        
       />
 
-      <section>
+      <section class="border">
           <h3>Meine Hobies</h3>
 
 
@@ -80,25 +82,30 @@
 
       <h3 id="Bio">Biography</h3>
 
-      <a
+      <a class ="light"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odit
         voluptas vero error aliquam doloremque dolorem, quisquam dolor obcaecati
         quidem, laborum ipsa qui impedit sunt delectus rem maiores quaerat
         vitae?</a
       >
 
-      <dt>sdfdsfsdfdsf</dt>
+      
 
       <section>
         <h2>Hier kannst Du was hinterlassen</h2>
 
         <div>
           <label for="name">Name</label><br />
-          <input type="text" name="name" id="name" /><br />
+          <input type="text" name="name" id="name" /><br/><br>
           <label for="email">E-Mail</label><br />
-          <input type="email" name="email" id="email" /><br>
+          <input type="email" name="email" id="email" /><br><br>
           <label for="message">Your message</label><br/>
-          <textarea name="message" id="message"></textarea> </textarea>
+          <textarea name="message" id="message"></textarea><br><BR>
+          <input type="checkbox" id="x" name = "x" value = "x">
+          <label for="x">E-Mail erwünscht?</label><BR>
+          <br>
+          <button type = "button">Submitt</button>
+          
 
         </div>
       </section>
@@ -109,3 +116,5 @@
     </footer>
   </body>
 </html>
+
+
